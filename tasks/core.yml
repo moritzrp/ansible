@@ -6,10 +6,8 @@
         - build-essential
         - software-properties-common
         - curl
-        - libssl-dev
         - git
-        - gcc
-        - make
+        - libssl-dev
         state: present
     - name: Install python packages
       apt:
