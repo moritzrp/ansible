@@ -1,0 +1,14 @@
+---
+- name: Setup personal environment
+  hosts: localhost
+  gather_facts: false
+  pre_tasks:
+    - name: Update apt
+      become: true
+      apt:
+        update_cache: true
+      tags:
+        - always
+  tasks:
+    - name: Install core packages
+      import_tasks: tasks/core.yml
