@@ -8,6 +8,7 @@
         - curl
         - git
         - libssl-dev
+        - i3
         state: present
     - name: Install python packages
       apt:
