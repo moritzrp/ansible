@@ -8,7 +8,7 @@
 ## Things to do
 
 - ssh setup
-- git setup
+- nerdfont
 - dotfiles
 - i3wm
 - neovim
@@ -17,5 +17,3 @@
 ### Tools to install
 
 - alacritty
-- dbeaver
-- vsc
